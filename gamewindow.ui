@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameWindow</class>
+ <widget class="QWidget" name="GameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1231</width>
+    <height>782</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>100</horstretch>
+    <verstretch>50</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(47, 52, 56);</string>
+  </property>
+  <layout class="QGridLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetMinimumSize</enum>
+   </property>
+   <item row="1" column="4">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>700</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="4">
+    <layout class="QGridLayout" name="gridLayout1">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetMaximumSize</enum>
+     </property>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="exit_from_game_button">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.133876, y1:0.205, x2:0.134328, y2:0.875, stop:0.189055 rgba(187, 4, 4, 255), stop:0.626866 rgba(236, 5, 5, 255), stop:0.950249 rgba(195, 45, 45, 255));
+font: 87 14pt &quot;Segoe UI Black&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>Выйти</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="2" column="2">
+        <widget class="QPushButton" name="sale_button">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.133876, y1:0.205, x2:0.134328, y2:0.875, stop:0.189055 rgba(187, 4, 4, 255), stop:0.626866 rgba(236, 5, 5, 255), stop:0.950249 rgba(195, 45, 45, 255));
+font: 87 18pt &quot;Segoe UI Black&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Продать</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="buy_button">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.133876, y1:0.205, x2:0.134328, y2:0.875, stop:0.189055 rgba(187, 4, 4, 255), stop:0.626866 rgba(236, 5, 5, 255), stop:0.950249 rgba(195, 45, 45, 255));
+font: 87 18pt &quot;Segoe UI Black&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Купить</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="3">
+        <widget class="QPushButton" name="roll_cube_button">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.133876, y1:0.205, x2:0.134328, y2:0.875, stop:0.189055 rgba(187, 4, 4, 255), stop:0.626866 rgba(236, 5, 5, 255), stop:0.950249 rgba(195, 45, 45, 255));
+font: 87 18pt &quot;Segoe UI Black&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Кинуть кубик</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="3">
+        <widget class="QLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+text-align: center;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" colspan="2">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QGraphicsView" name="graphicsView">
+     <property name="backgroundBrush">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

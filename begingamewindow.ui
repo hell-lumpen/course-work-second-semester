@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BeginGameWindow</class>
+ <widget class="QWidget" name="BeginGameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1175</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Добавь всех игроков. Минимальное количество - 2,
+ а максимальное - 5.
+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_gamers">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="add_player_button">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>30</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.133876, y1:0.205, x2:0.134328, y2:0.875, stop:0.189055 rgba(187, 4, 4, 255), stop:0.626866 rgba(236, 5, 5, 255), stop:0.950249 rgba(195, 45, 45, 255));
+font: 87 14pt &quot;Segoe UI Black&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Добавить реального игрока</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="play_game_button">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.133876, y1:0.205, x2:0.134328, y2:0.875, stop:0.189055 rgba(187, 4, 4, 255), stop:0.626866 rgba(236, 5, 5, 255), stop:0.950249 rgba(195, 45, 45, 255));
+color: rgb(180, 180, 180);
+font: 87 12pt &quot;Segoe UI Black&quot;;
+</string>
+           </property>
+           <property name="text">
+            <string>Минимальное количество - 2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="cancel_game_button">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.133876, y1:0.205, x2:0.134328, y2:0.875, stop:0.189055 rgba(187, 4, 4, 255), stop:0.626866 rgba(236, 5, 5, 255), stop:0.950249 rgba(195, 45, 45, 255));
+font: 87 12pt &quot;Segoe UI Black&quot;;
+</string>
+           </property>
+           <property name="text">
+            <string>Отмена</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

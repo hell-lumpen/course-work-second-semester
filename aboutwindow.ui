@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutWindow</class>
+ <widget class="QWidget" name="AboutWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>776</width>
+        <height>369</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">Курсовая работа по дисциплине &quot;Языки и методы программирования&quot; \n Подготовил студент группы М8О-110Б-20 \n Грубенко Максим \n МАИ 2021;
+color: rgb(255, 255, 255);
+font: 87 14pt &quot;Segoe UI Black&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Курсовая работа по дисциплине &quot;Языки и методы программирования&quot; 
+ Подготовил студент группы М8О-110Б-20 
+ Грубенко Максим 
+ МАИ 2021</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="go_main_window_button">
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.133876, y1:0.205, x2:0.134328, y2:0.875, stop:0.189055 rgba(187, 4, 4, 255), stop:0.626866 rgba(236, 5, 5, 255), stop:0.950249 rgba(195, 45, 45, 255));
+font: 87 18pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Возврат в главное меню</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
